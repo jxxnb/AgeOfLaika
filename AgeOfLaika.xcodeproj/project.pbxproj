@@ -13,6 +13,7 @@
 		036B70521ADC796B00F03E04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036B70511ADC796B00F03E04 /* Images.xcassets */; };
 		036B70551ADC796B00F03E04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036B70531ADC796B00F03E04 /* LaunchScreen.xib */; };
 		036B70611ADC796B00F03E04 /* AgeOfLaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B70601ADC796B00F03E04 /* AgeOfLaikaTests.swift */; };
+		036D1E1A1ADD9E2400D004E3 /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 036D1E191ADD9E2400D004E3 /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		036B705A1ADC796B00F03E04 /* AgeOfLaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeOfLaikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		036B705F1ADC796B00F03E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		036B70601ADC796B00F03E04 /* AgeOfLaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfLaikaTests.swift; sourceTree = "<group>"; };
+		036D1E191ADD9E2400D004E3 /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		036B70481ADC796B00F03E04 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				036D1E191ADD9E2400D004E3 /* AgeOfLaika.jpg */,
 				036B70491ADC796B00F03E04 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				036B70501ADC796B00F03E04 /* Main.storyboard in Resources */,
+				036D1E1A1ADD9E2400D004E3 /* AgeOfLaika.jpg in Resources */,
 				036B70551ADC796B00F03E04 /* LaunchScreen.xib in Resources */,
 				036B70521ADC796B00F03E04 /* Images.xcassets in Resources */,
 			);
@@ -407,6 +411,7 @@
 				036B70661ADC796B00F03E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		036B70671ADC796B00F03E04 /* Build configuration list for PBXNativeTarget "AgeOfLaikaTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				036B70691ADC796B00F03E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
