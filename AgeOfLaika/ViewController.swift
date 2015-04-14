@@ -26,10 +26,18 @@ class ViewController: UIViewController {
     @IBAction func convertHumanToDogPressed(sender: UIButton) {
         var humanYears = humanYearsTextField.text.toInt()!
         
-        dogYearsLabel.text = "Dog Years: \(humanYears * 7)"
+        //dogYearsLabel.text = "Dog Years: \(humanYears * 7)"
+        if humanYears == 0 {
+            dogYearsLabel.text = "Dog Years:"
+        }
+        else if humanYears < 3 {
+            dogYearsLabel.text = "Dog Years: \(Double(humanYears) * 10.5)"
+        }
+        else {
+            dogYearsLabel.text = "Dog Years: \((humanYears - 2) * 4 + 21)"
+        }
         
         humanYearsTextField.resignFirstResponder()
     }
 
 }
-
